@@ -1,6 +1,6 @@
 rules:
-  - id: dont-line
-    severity: WARNING
+  - id: dont-writeline
+    severity: INFO
     languages:
       - c#
     message: |
