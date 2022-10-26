@@ -1,0 +1,10 @@
+rules:
+  - id: dont-line
+    severity: WARNING
+    languages:
+      - c#
+    message: |
+      Rule repo: You should not use WriteLine
+    patterns:
+      - pattern: |
+          $C.WriteLine(...);
